@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto del sitio sobre impacto de las tecnologías web.">
+    <meta name="author" content="Erwin Lino Paucar Quinchiguango">
+    <title>Contacto | Tecnologías Web</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Tecnologías Web</h1>
+                <span>Impacto de las Tecnologías Web en la Sociedad y los Negocios</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="sociedad.html">Impacto en la Sociedad</a></li>
+            <li><a href="negocios.html">Impacto en los Negocios</a></li>
+            <li><a href="tecnologias.html">Tecnologías Clave</a></li>
+            <li><a href="contacto.html" class="activo">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <p>
+                Si desea enviar un comentario, consulta o sugerencia relacionada con el 
+                contenido de este sitio, puede utilizar el siguiente formulario. 
+                Todos los campos son importantes para poder responder de manera adecuada.
+            </p>
+
+            <!-- Formulario de contacto -->
+            <form class="formulario" action="#" method="post">
+                <div class="form-grupo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Erwin Lino Paucar" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ej: elpaucar1@utpl.edu.ec" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escriba aquí su mensaje..." required></textarea>
+                </div>
+
+                <div class="form-grupo">
+                    <button type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Información del estudiante</h2>
+            <article>
+                <h3>Datos del autor del proyecto</h3>
+                <ul>
+                    <li><strong>Nombre:</strong> Erwin Lino Paucar Quinchiguango</li>
+                    <li><strong>Correo institucional:</strong> elpaucar1@utpl.edu.ec</li>
+                    <li><strong>Asignatura:</strong> Tecnologías Web</li>
+                    <li><strong>Institución:</strong> Universidad Técnica Particular de Loja (UTPL)</li>
+                    <li><strong>Carrera:</strong> Tecnologías de la Información</li>
+                </ul>
+            </article>
+
+            <aside>
+                <h3>Nota sobre el formulario</h3>
+                <p>
+                    Este formulario es de carácter demostrativo. En un entorno real se 
+                    conectaría a un script del lado del servidor para procesar y almacenar 
+                    o reenviar los mensajes. Aquí se utiliza únicamente para evidenciar 
+                    el uso correcto de las etiquetas HTML de formularios.
+                </p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico - Tecnologías Web | UTPL</p>
+        <p>Estudiante: Erwin Lino Paucar Quinchiguango | Correo: elpaucar1@utpl.edu.ec</p>
+        <p>&copy; 2025 - Uso exclusivamente educativo</p>
+    </footer>
+</body>
+</html>
